@@ -1,7 +1,7 @@
 "# DQI" 
 
 Example of XML document:
-
+```xml
 <records>
 	<record id="1">
 		<item>Contents of record id 1</item>
@@ -13,3 +13,4 @@ Example of XML document:
 		<item>Contents of record id 3</item>
 	</record>
 </records>
+```
