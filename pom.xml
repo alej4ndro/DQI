@@ -1,0 +1,115 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.upv</groupId>
+  <artifactId>dqi</artifactId>
+  <packaging>war</packaging>
+  <version>0.1</version>
+  <name>dqi Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+  	<jersey.version>2.27</jersey.version>
+  	<java.version.source>1.8</java.version.source>
+    <java.version.target>1.8</java.version.target>
+    <compiler.plugin>3.6.2</compiler.plugin>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+	<!-- Jersey 2 -->
+	<dependency>
+		<groupId>org.glassfish.jersey.containers</groupId>
+		<artifactId>jersey-container-servlet</artifactId>
+		<version>${jersey.version}</version>
+	</dependency>
+    	
+   	<dependency>
+		<groupId>org.glassfish.jersey.media</groupId>
+		<artifactId>jersey-media-json-jackson</artifactId>
+		<version>${jersey.version}</version>
+	</dependency>
+		
+		 <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+	<dependency>
+	    <groupId>org.glassfish.jersey.core</groupId>
+	    <artifactId>jersey-client</artifactId>
+	    <version>${jersey.version}</version>
+	</dependency>	
+	
+	<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-multipart -->
+	<dependency>
+	    <groupId>org.glassfish.jersey.media</groupId>
+	    <artifactId>jersey-media-multipart</artifactId>
+	    <version>${jersey.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
+	<dependency>
+	    <groupId>org.glassfish.jersey.core</groupId>
+	    <artifactId>jersey-common</artifactId>
+	    <version>${jersey.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.bundles.repackaged/jersey-guava -->
+	<!-- <dependency>
+	    <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
+	    <artifactId>jersey-guava</artifactId>
+	    <version>2.26-b03</version>
+	</dependency> -->
+		
+	<dependency>
+	    <groupId>org.glassfish.jersey.inject</groupId>
+	    <artifactId>jersey-hk2</artifactId>
+	    <version>${jersey.version}</version>
+	</dependency>
+    
+     <dependency>
+      <groupId>org.exist-db</groupId>
+      <artifactId>exist-core</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    
+  </dependencies>
+  <build>
+    <finalName>dqi</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${compiler.plugin}</version>
+        <configuration>
+          <source>${java.version.source}</source>
+          <target>${java.version.target}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <repositories>
+   <repository>
+      <id>exist-db</id>
+      <url>http://repo.evolvedbinary.com/content/repositories/exist-db/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>exist-db-snapshots</id>
+      <url>http://repo.evolvedbinary.com/content/repositories/exist-db-snapshots/</url>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+</project>
