@@ -18,7 +18,7 @@ import org.xmldb.api.DatabaseManager;
 
 public class DBController {
 
-	private static final String URI = "xmldb:exist://localhost:8080/exist/xmlrpc";
+	private static final String URI = "xmldb:exist://localhost:8888/exist/xmlrpc";
 	private static final String DRIVER = "org.exist.xmldb.DatabaseImpl";
 	
 	static {

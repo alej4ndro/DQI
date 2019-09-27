@@ -25,9 +25,8 @@ public class ExampleService {
 		
 		String records = null;
 		try {
-			records = DBController.queryResource("/db/dqi-example","records2.xml",id);
+			records = DBController.queryResource("/db/dqi-example","records_example.xml",id);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return Response.ok("Received ID: " + id + "\n"+records).build();
