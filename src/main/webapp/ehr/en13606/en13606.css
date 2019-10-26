@@ -1,0 +1,334 @@
+
+body {text-align:center;}
+
+
+table.EXTRACT {  font-family: Arial, Helvetica, sans-serif; margin-left:auto; margin-right:auto; text-align:left; width:100% !important;  width:99%;}
+div.EXTRACTTITLE { padding-top:10px; padding-bottom:10px; font-size:20pt; font-weight:bold; background-color:#006B9A;  color:White;}
+
+div.DEMOGRAPHICS {font-size:11pt; background-color:#EEE8AA;  padding-top:10px; padding-bottom:10px;}
+div.DEMTITLE { margin-left:5px; text-align:Left; color:#000000; font-weight:bold; }
+div.DEMVALUE {text-align:Left; color:#000000;  }
+table.DEMINFO { width:100%; font-family: Arial, Helvetica, sans-serif; border-collapse: collapse; width:100% !important; width:99.5%;}
+td.DEMCELL {width:11%; }
+
+
+table.COMPOSITION {  font-family: Arial, Helvetica, sans-serif;width:100% !important; width:99.5%;}
+div.COMPOSITIONBORDER { margin-top:15px; margin-bottom:15px; border-color:#006B9A; border-left-style: solid; border-right-style: solid; border-top-style: solid; border-top-width: 10px; border-bottom-style: solid; border-bottom-width: 10px; padding:0px;}
+div.COMPOSITIONTITLE {font-size:20pt; color:White; font-weight:bold; background-color:#006B9A; padding:5px;}
+
+table.SECTION {text-align:Left; width:100%; border:0px; font-family: Arial, Helvetica, sans-serif;
+}
+/*div.SECTIONBORDER { margin-left:15px; margin-top:10px; margin-bottom:15px; border-bottom-style: solid; border-color:#007961;}*/
+div.SECTIONTITLE {font-size:18pt; font-weight:bold; border-bottom-style: solid; border-color:#006B9A; color: #006B9A;}
+h2.SECTIONTITLE {font-size:18pt; font-weight:bold; border-bottom-style: solid; border-color:#006B9A; color: #006B9A;}
+
+table.CLUSTER {text-align:Left; width:100%; font-family: Arial, Helvetica, sans-serif; font-size:10pt;}
+div.CLUSTERBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; color: #00000;}
+span.CLUSTERTITLE { font-size:12pt; font-weight:bold; color: #006B9A;}
+div.CLUSTERCONTENT {margin-left:15px;  margin-bottom:5px; border-left-style: solid;  border-color:#CCCCCC; color: #000000;}
+
+
+div.CLUSTERTABLE {   }
+table.CLUSTERTABLE{ font-size:10pt;font-family: Arial, Helvetica, sans-serif; border-collapse: collapse;background-color:#007961;}
+thead.CLUSTERTABLEHEAD {background-color:#007961;}
+tbody.CLUSTERTABLEBODY {}
+th.CLUSTERTH{font-size:10pt;border-width: medium;border-color: #007961;border-style:solid; color: white;}
+td.CLUSTERTD{font-size:10pt;background-color:#FFFFFF; border-width: medium;border-color: #007961;border-style:solid;}
+/*div.CLUSTERTIME {font-size:8pt;  font-style:italic;  color: #111111;}*/
+
+table.ENTRY {text-align:Left; font-family: Arial, Helvetica, sans-serif;
+}
+div.ENTRYBORDER { margin-left:15px; margin-top:10px; margin-bottom:10px; }
+div.ENTRYTITLE {font-size:16pt; font-weight:bold; font-style:italic; border-color:#006B9A; color: #006B9A;}
+h2.ENTRYTITLE {font-size:16pt; font-weight:bold; font-style:italic; border-color:#006B9A; color: #006B9A;}
+/*div.ENTRYTIME {font-size:8pt;  font-style:italic;  color: #111111;}*/
+
+table.ELEMENT {text-align:Left; margin-top:5px; margin-bottom:5px; font-family: Arial, Helvetica, sans-serif; }
+div.ELEMENTTITLE {margin-left:10px; text-align:Left; color:#000000; font-weight:bold;font-size:10pt;}
+div.VALUE {text-align:Left; color:#000000;font-size:10pt;}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+a img{
+	border: none;
+}
+
+
+a.tip:hover {
+	position: relative;
+	background-color: transparent; 
+}
+
+a.tip span {
+	display: none;
+	background-color: transparent; 
+}
+
+a.tip:hover span {
+	display: block;
+   	position: absolute; top: 10px; left: 0;
+	/* formatting only styles */
+   	padding: 5px; margin: 10px; z-index: 100;
+   	background: #f0f0f0; border: 1px dotted #c0c0c0;
+	opacity: 0.9;
+	width:170px;
+	/* end formatting */
+}
+
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 14px Arial, Helvetica, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #006B9A; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+/*.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}*/
+
+/* Copyright 2006 Joost de Valk */
+a img {
+	border: 0;
+}
+table.sortable {
+	border-spacing: 0;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+table.sortable th, table.sortable td {
+	padding: 2px 4px 2px 4px;
+
+	border-color: #444;
+}
+table.sortable th {
+	border-width: 0px 1px 1px 1px;
+	background-color: #006B9A;
+}
+table.sortable td {
+	border-width: 0px 1px 0px 1px;
+}
+table.sortable tr.odd td {
+	background-color: #DAD8E9;
+}
+table.sortable tr.even td {
+	background-color: #FFFFFF;
+}
+table.sortable tr.sortbottom td {
+	border-top: 1px solid #444;
+	background-color: #404080;
+	font-weight: bold;
+}
+
+/* *********************
+                Tooltip
+ ************************/
+ 
+
+#BT_arrow_left{
+	background-image: url(images/tooltip/arrow_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	left:-12px;
+	height:23px;
+	width:10px;
+    top:-3px;
+}
+
+#BT_arrow_right{
+	background-image: url(images/tooltip/arrow_right.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	height:23px;
+	width:11px;
+    top:-2px;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+
+#BT_arrow_title_left{
+	background-image: url(images/tooltip/arrow_title_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	left:-12px;
+	height:23px;
+	width:10px;
+    top:-3px;
+}
+
+#BT_arrow_title_right{
+	background-image: url(images/tooltip/arrow_title_right.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	height:23px;
+	width:11px;
+    top:-2px;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#BT_main {
+	position: relative;
+	z-index:101;
+	border: 1px solid #000;
+	background-color: #fff;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:10pt;
+}
+
+#BT_copy{
+	padding:5px 5px 5px 5px;
+	color:#333333;
+    
+}
+
+#BT_title{
+	background-color: #CCCCCC;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+#BT_text p{
+	margin:3px 0;
+}
+
+#BT_text img{
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+}
+
+.betterTip{
+	cursor:pointer;
+	text-decoration:none;
+	color:black;
+}
+
+.BT_shadow0 {
+	background:transparent url(images/tooltip/corner_tr.png) no-repeat scroll right top;
+	position:absolute;
+}
+.BT_shadow1 {
+	background:transparent url(images/tooltip/corner_bl.png) no-repeat scroll left bottom;
+	display:block;
+	padding-left:8px;
+	padding-top:8px;
+}
+
+.BT_shadow2 {
+	background:transparent url(images/tooltip/shadow.png) no-repeat scroll right bottom;
+	display:block;
+}

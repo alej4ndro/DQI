@@ -1,0 +1,73 @@
+/* CSS Stylesheet */
+/* created by Causeway CSS Stylesheet Editor RCS 2005 */
+/* http://www.causeway.co.uk/freestuf/cssedit/ */
+
+table.EXTRACT { width: 100%; font-family: Arial, Helvetica, sans-serif;}
+div.EXTRACTTITLE { padding-top:10px; padding-bottom:10px; font-size:XX-Large; font-weight:bold; text-align:Center; background-color:#007961; width:100%; color:White;
+}
+
+div.DEMOGRAPHICS {font-size:X-Large; font-weight:bold; text-align:Center; background-color:#EEE8AA; width:100%; padding-top:10px; padding-bottom:10px;
+}
+
+table.COMPOSITION { width:100%;}
+div.COMPOSITIONBORDER { margin-top:15px; margin-bottom:15px; border-color:#007961; border-left-style: solid; border-right-style: solid; border-top-style: solid; border-top-width: 10px; border-bottom-style: solid; border-bottom-width: 10px; padding:0px;}
+div.COMPOSITIONTITLE {font-size:XX-Large; color:White; font-weight:bold; background-color:#007961; padding:5px;}
+
+table.SECTION {text-align:Left; width:100%; border:0px; background-color:#E6FFE6;
+}
+div.SECTIONBORDER { margin-left:15px; margin-top:10px; margin-bottom:15px;}
+div.SECTIONTITLE {font-size:X-Large; font-weight:bold; border-bottom-style: solid; border-color:#007961; color: #007961;}
+
+table.CLUSTER {text-align:Left; width:100%;
+}
+div.CLUSTERBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.CLUSTERTITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.ITEMLIST {text-align:Left; width:100%;
+}
+div.ITEMLISTBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.ITEMLISTTITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.ITEMTABLE {text-align:Left; width:100%;
+}
+div.ITEMTABLEBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.ITEMTABLETITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.ITEMSINGLE {text-align:Left; width:100%;
+}
+div.ITEMSINGLEBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.ITEMSINGLETITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.ITEMTREE {text-align:Left; width:100%;
+}
+div.ITEMTREEBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.ITEMTREETITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.OBSERVATION {text-align:Left; width:100%;
+}
+div.OBSERVATIONBORDER { margin-left:15px; margin-top:5px; margin-bottom:5px; }
+div.OBSERVATIONTITLE {font-size:Large; font-weight:bold; font-style:italic; border-color:#007961; color: #007961;}
+
+table.EVALUATION {text-align:Left; width:100%;
+}
+div.EVALUATIONBORDER { margin-left:15px; margin-top:5px; margin-bottom:5px; }
+div.EVALUATIONTITLE {font-size:Large; font-weight:bold; font-style:italic; border-color:#007961; color: #007961;}
+
+table.INSTRUCTION {text-align:Left; width:100%;
+}
+div.INSTRUCTIONBORDER { margin-left:15px; margin-top:5px; margin-bottom:5px; }
+div.INSTRUCTIONTITLE {font-size:Large; font-weight:bold; font-style:italic; border-color:#007961; color: #007961;}
+
+table.HISTORY {text-align:Left; width:100%;
+}
+div.HISTORYBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; border-style: solid; border-color:#007961; color: #007961;}
+div.HISTORYTITLE {margin-left:15px; font-size:Medium; font-weight:bold;  border-bottom-style:solid; border-color:#007961; color: #007961;}
+
+table.ELEMENT {text-align:Left; margin-top:5px; margin-bottom:5px;}
+div.ELEMENTTITLE {margin-left:15px; text-align:Left; color:#000000; font-weight:bold;}
+div.VALUE {text-align:Left; color:#000000;}
+
+table.POINTEVENT {text-align:Left; width:100%;
+}
+div.POINTEVENTBORDER { margin-left:15px; margin-top:5px; margin-bottom:5px; }
+div.POINTEVENTTITLE {font-size:Medium; font-weight:bold; font-style:italic; border-color:#007961; color: #007961;}
