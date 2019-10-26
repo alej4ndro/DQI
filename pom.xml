@@ -81,7 +81,17 @@
       <artifactId>exist-core</artifactId>
       <version>[5.0.0-RC5,)</version>
     </dependency>
-    
+    <!-- https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE -->
+	<dependency>
+	    <groupId>net.sf.saxon</groupId>
+	    <artifactId>Saxon-HE</artifactId>
+	    <version>9.4</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.jdom</groupId>
+	    <artifactId>jdom</artifactId>
+	    <version>2.0.2</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>dqi</finalName>
