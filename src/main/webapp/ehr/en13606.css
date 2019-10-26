@@ -1,0 +1,46 @@
+
+body {text-align:center; }
+
+
+table.EXTRACT {  font-family: Arial, Helvetica, sans-serif; margin-left:auto; margin-right:auto; text-align:left; width:100% !important;  width:99%;}
+div.EXTRACTTITLE { padding-top:10px; padding-bottom:10px; font-size:22pt; font-weight:bold; background-color:#007961;  color:White;}
+
+div.DEMOGRAPHICS {font-size:11pt; background-color:#EEE8AA;  padding-top:10px; padding-bottom:10px;}
+div.DEMTITLE { margin-left:5px; text-align:Left; color:#000000; font-weight:bold; }
+div.DEMVALUE {text-align:Left; color:#000000;  }
+table.DEMINFO { width:100%; font-family: Arial, Helvetica, sans-serif; border-collapse: collapse; width:100% !important; width:99.5%;}
+td.DEMCELL {width:11%; }
+
+
+table.COMPOSITION {  font-family: Arial, Helvetica, sans-serif;width:100% !important; width:99.5%;}
+div.COMPOSITIONBORDER { margin-top:15px; margin-bottom:15px; border-color:#007961; border-left-style: solid; border-right-style: solid; border-top-style: solid; border-top-width: 10px; border-bottom-style: solid; border-bottom-width: 10px; padding:0px;}
+div.COMPOSITIONTITLE {font-size:22pt; color:White; font-weight:bold; background-color:#007961; padding:5px;}
+
+table.SECTION {text-align:Left; width:100%; border:0px; font-family: Arial, Helvetica, sans-serif;
+}
+div.SECTIONBORDER { margin-left:15px; margin-top:10px; margin-bottom:15px; border-bottom-style: solid; border-color:#007961;}
+div.SECTIONTITLE {font-size:18pt; font-weight:bold; border-bottom-style: solid; border-color:#007961; color: #007961;}
+
+table.CLUSTER {text-align:Left; width:100%; font-family: Arial, Helvetica, sans-serif;
+}
+div.CLUSTERBORDER {margin-left:15px; margin-top:5px; margin-bottom:5px; color: #00000;}
+span.CLUSTERTITLE { font-size:12pt; font-weight:bold; color: #000000;}
+div.CLUSTERCONTENT {margin-left:15px;  margin-bottom:5px; border-left-style: solid;  border-color:#CCCCCC; color: #000000;}
+
+
+div.CLUSTERTABLE {   }
+table.CLUSTERTABLE{ font-size:11pt;font-family: Arial, Helvetica, sans-serif; border-collapse: collapse;background-color:#007961;}
+thead.CLUSTERTABLEHEAD {background-color:#007961;}
+tbody.CLUSTERTABLEBODY {}
+th.CLUSTERTH{border-width: medium;border-color: #007961;border-style:solid; color: white;}
+td.CLUSTERTD{background-color:#99FF99; border-width: medium;border-color: #007961;border-style:solid;}
+
+
+table.ENTRY {text-align:Left; font-family: Arial, Helvetica, sans-serif;
+}
+div.ENTRYBORDER { margin-left:15px; margin-top:10px; margin-bottom:10px; }
+div.ENTRYTITLE {font-size:16pt; font-weight:bold; font-style:italic; border-color:#007961; color: #007961;}
+
+table.ELEMENT {text-align:Left; margin-top:5px; margin-bottom:5px; font-family: Arial, Helvetica, sans-serif; }
+div.ELEMENTTITLE {margin-left:15px; text-align:Left; color:#000000; font-weight:bold;}
+div.VALUE {text-align:Left; color:#000000; }

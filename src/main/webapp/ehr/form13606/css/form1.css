@@ -1,0 +1,270 @@
+html{
+  background:#eee;
+}
+
+/**body{
+
+  margin:17px 0 15px 0;
+  padding:0;
+  text-align:center;
+  font-size:small;
+  font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  }  **/
+
+h1 {
+    font-size: 160%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+div.estructura {
+	border: 3px dotted rgb(204, 204, 204);
+}
+
+div.cabecera {
+    font-size: 280%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px 10px 0px 10px;
+    border-bottom: 1px dotted rgb(204, 204, 204);
+}
+
+form {margin:0;padding:0;}
+
+fieldset{
+  /*margin:1em 0;
+  border:none;
+  border-top:1px solid #ccc;*/
+  width: 98%;
+  }
+
+legend{
+  margin:3px 0px;
+  padding:0 .5em;
+  color:#036;
+  background:transparent;
+  font-size:1.3em;
+  font-weight:bold;
+}
+
+legend.mini {
+            font-size: 12px;
+            color:#036;
+            background:transparent;
+            font-weight:bold;
+}
+
+label {
+   /* width:200px;*/
+    padding:0 1em;
+    text-align:left;
+}
+
+font.bold {
+  text-align: left;
+  margin-left: 8px;
+  font-weight: bold;
+
+}
+
+
+
+fieldset div{
+  margin-bottom:0px;
+
+ /* display:table-row;*/
+}
+
+fieldset div input,fieldset div textarea, fieldset div select,select {
+  /*width:130px;*/
+ /* border-top:1px solid #555;
+  border-left:1px solid #555;
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;*/
+  padding:1px;
+  color:#333;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+table.tiposC {
+  margin-left: 15px;
+
+}
+
+
+.radio {
+ width: 20px;
+ border: none;
+
+}
+
+span.required  {
+    font-size: 10px;
+    color: #CC0000;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+img {
+    vertical-align: bottom;
+    visibility: hidden;
+    cursor: pointer;
+
+}
+
+
+
+
+
+div.fm-multi div{margin:5px 0;}
+
+div.fm-multi input{width:1em;}
+
+div.fm-multi label{display:block;width:200px;padding-left:5em;text-align:left;}
+
+#fm-submit{clear:both;padding-top:1em;text-align:center;}
+
+#fm-submit input{border:1px solid #333;padding:2px 1em;background:#555;color:#fff;font-size:100%;}
+
+input:focus,textarea:focus{background:#efefef;color:#000;}
+
+input {
+   margin-left: 10px;
+}
+
+.radio {
+  margin-left: 15px;
+}
+
+
+fieldset div.fm-req{font-weight:bold;}
+
+fieldset div.fm-req label:before{content:"* ";}
+
+body{
+    padding:0;
+    margin:20px;
+    color:#333;
+    background:#fff;
+    font:12px arial,verdana,sans-serif;
+    text-align:left;
+    border: 2px #000;
+}
+
+#container{
+  margin:0 auto;
+  padding:1em;
+  text-align:left;
+  margin: 5px;
+
+}
+
+p#fm-intro{margin:0;}
+
+div.clinical {
+    padding: 0 3em;
+    width: 85%;
+    margin: 5px;
+
+}
+
+div.marca {
+    border: dotted;
+	border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+}
+
+div.desmarca {
+    border: dotted;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #FFFFFF;
+
+}
+
+/*
+div.clinical:hover {
+
+     padding: 0 3em;
+     margin: 5px;
+
+
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+      border-radius: 5px;
+
+
+    -moz-box-shadow: 5px 5px 10px #000;
+    -webkit-box-shadow: 5px 5px 10px #000;
+     box-shadow: 5px 5px 10px #000;
+
+     behavior: url(ie-css3.htc); /* This lets IE know to call the script on all elements which get the 'box' class
+
+}  */
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+/* Degradado div */
+/*
+td.separador {
+   /*background-image: url('../icons/degradado1.png');
+   background-repeat: repeat-x;
+   background-position: bottom;*/
+  /*  background-color: #0C9DE7;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 27px;
+    padding: 2px;
+	width: 80%;
+   
+}*/
+
+
+td.separador {
+
+  border-bottom-color: #CCCCCC;
+  border-width: 1px;
+  border-bottom-style: dotted;
+
+
+}
+input.btn_add {
+    background-image: url('../icons/add.png'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: top; /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 16px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: top;
+}
